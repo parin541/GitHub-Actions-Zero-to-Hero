@@ -1,8 +1,8 @@
 # app.py
 # This is a test commit for addition
-def add(a, b):
+def subs(a, b):
     return a - b
 
-def test_add():
-    assert add(1, 2) == 3
-    assert add(1, -1) == 0
+def test_subs():
+    assert subs(3, 2) == 1
+    assert subs(5, 1) == 4
